@@ -6,17 +6,17 @@
 //  Copyright (c) 2015 Xamarin, inc. All rights reserved.
 //
 
-#import "ToDoList TableViewController.h"
+#import "ToDoListTableViewController.h"
 #import "ToDoItem.h"
 #import "AddToDoItemViewController.h"
 
-@interface ToDoList_TableViewController ()
+@interface ToDoListTableViewController ()
 
 @property NSMutableArray *toDoItems;
 
 @end
 
-@implementation ToDoList_TableViewController
+@implementation ToDoListTableViewController
 
 - (void)loadInitialData {
     ToDoItem *item1 = [[ToDoItem alloc] init];
