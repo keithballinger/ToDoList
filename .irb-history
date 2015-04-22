@@ -1,0 +1,15 @@
+query("button")
+query("button")
+ touch("button index:0")
+quit
+ touch("button index:0")
+ touch("button index:0")
+ start_test_server_in_background(:timeout => 30)
+ touch("button index:0")
+query
+query()
+query("button")
+ touch("button index:0")
+ touch("button index:0")
+ touch("button index:1")
+quit
