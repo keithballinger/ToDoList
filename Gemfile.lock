@@ -55,7 +55,7 @@ GEM
       mime-types (>= 1.16, < 3.0)
       netrc (~> 0.7)
     retriable (2.0.2)
-    rubyzip (1.1.7)
+    rubyzip (1.2.3)
     run_loop (4.1.0)
       awesome_print (~> 1.8)
       command_runner_ng (>= 0.1.4, < 1.0)
